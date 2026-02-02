@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+	std::string name;
+	std::string lastname;
+
+	cout << "My name is Roberto Garcia\n;
+	     cout << "My class number is 6.67" << "\n";
+	cout << "My hobby is gaming!" << "\n";
+
+
+	cout << "what is your name?" << "\n";
+	cin  >> name;
+	cout << "You said your name is: " << name << "\n";
+	cout << "Well, what is your last name? ";
+	cin  >> lastname;
+	cout << "Your last name is: " << lastname << "\n";
+	cout << "So, your full name is " << name << " " << lastname;
+
+	return 0;
+}
