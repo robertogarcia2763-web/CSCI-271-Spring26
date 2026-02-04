@@ -1,0 +1,34 @@
+//simple calculator 
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    double num1, num2;
+    double sum;
+    double difference;
+    double product;
+    double quotient;
+    char operation;
+   
+
+   cout << "Enter the first number: ";
+    cin >> num1;
+   cout << "Enter the second number: ";
+    cin >> num2;
+   cout << "You entered " << num1 << " and " << num2 << endl;
+    sum = num1 + num2;
+    difference = num1 - num2;
+    product = num1 * num2;
+    quotient = num1 / num2;
+    cout << "sum: " << sum << endl;
+    cout << "difference: " << difference << endl;
+    cout << "product: " << product << endl;
+    cout << "quotient: " << quotient << endl;
+    
+
+   return 0;
+}
+
