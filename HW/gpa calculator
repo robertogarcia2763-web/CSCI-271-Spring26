@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+double grade1, grade2, grade3, average;
+
+cout << "enter the first course grade: ";
+    cin >> grade1;
+cout << "enter the second course grade: ";
+    cin >> grade2;
+cout << "enter the third course grade: ";
+    cin >> grade3;
+
+average = (grade1 + grade2 + grade3) / 3;
+cout << "Your GPA is: " << average << endl;
+
+
+   return 0;
+}
+
+
+   
+
+   
