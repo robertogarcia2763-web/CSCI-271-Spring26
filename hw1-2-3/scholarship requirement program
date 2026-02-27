@@ -1,0 +1,38 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    double GPA;
+    int satscore;
+    int volunteerhours;
+
+ cout << "What is your GPA? " << endl;
+ cin  >> GPA;
+
+ cout << "What is your SAT score? " << endl;
+ cin  >> satscore;
+
+ cout << "How many volunteer hours do you have? " << endl;
+ cin  >> volunteerhours;
+
+ if (GPA >= 3.5 && satscore >= 1200 || GPA >= 3.8 && volunteerhours >= 100){
+    cout << "Student qualifies for scholarship." << endl;
+}
+
+else {
+    cout << "Student does not qualify for scholarship." << endl;
+}
+
+
+
+    return 0;
+
+}
