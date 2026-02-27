@@ -1,0 +1,32 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+ int userinput;
+
+    cout << "Enter an integer: " << endl;
+    cin  >> userinput;
+
+    if (userinput % 2 == 0) {
+        cout << userinput << " is an even number!" << endl;
+    }
+    else {
+        cout << userinput << " is an odd number!" << endl;  
+    }
+
+
+
+
+
+
+
+    return 0;
+}
