@@ -1,0 +1,40 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main(){
+
+    double coursegrade1, coursegrade2, coursegrade3;
+
+    cout << "What is your grade for course 1? " << endl;
+    cin  >> coursegrade1;
+
+    cout << "What is your grade for course 2? " << endl;
+    cin  >> coursegrade2;
+
+    cout << "What is your grade for course 3? " << endl;
+    cin  >> coursegrade3;
+
+    double sum = coursegrade1 + coursegrade2 + coursegrade3;
+    double average = sum / 3;
+    double gpa = (average / 100) * 4.0;
+
+    cout << fixed << setprecision(2) << gpa << " GPA" << endl;
+
+
+
+
+
+
+
+    return 0;
+}
