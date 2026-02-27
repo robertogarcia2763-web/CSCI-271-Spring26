@@ -1,0 +1,54 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+/*Pseudocode:
+
+DECLARE ACCOUNT_BALANCE as DOUBLE
+DECLARE WITHDRAWAL_AMOUNT as DOUBLE
+DECLARE NEW_BALANCE as DOUBLE
+
+ASK for account balance
+GET account balance
+
+THEN
+
+ASK for withdrawal amount
+GET withdrawal amount
+
+IF withdrawal amount is GREATER than ACCOUNT BALANCE, DISPLAY: "Insufficient funds.”
+ELSE SUBTRACT, THEN, PRINT: NEW_BALANCE.
+*/
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    double account_balance;
+    double withdraw_amount;
+    double new_balance;
+
+    cout << "what is your account balance? " << endl;
+    cin  >> account_balance;
+
+    cout << "How much would you like to withdrawl? " << endl;
+    cin  >> withdraw_amount;
+
+    if(withdraw_amount > account_balance){
+    cout << "Insufficient funds." << endl;
+    }else 
+    new_balance = account_balance - withdraw_amount;
+    cout << new_balance;
+
+
+
+
+
+
+
+
+    return 0;
+    
+}
