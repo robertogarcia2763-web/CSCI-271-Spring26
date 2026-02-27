@@ -1,0 +1,44 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+int main(){
+
+    double billamount;
+    double tippercentage;
+    int pplamt;
+
+    cout << "what is the total bill amount? " << endl;
+    cin  >> billamount;
+
+    cout << "What is the tip percentage? " << endl;
+    cin  >> tippercentage;
+
+    cout << "How many people are splitting the bill? " << endl;
+    cin  >> pplamt;
+
+    double tipamnt = (tippercentage / 100) * billamount;
+    double totalamt = billamount + tipamnt;
+    double amtperperson = totalamt / pplamt;
+
+    cout << "The tip amount is: $" << fixed << setprecision(2) << tipamnt << endl;
+    cout << "The total amount is: $" << fixed << setprecision(2) << totalamt << endl;
+    cout << "The amount per person is: $" << fixed << setprecision(2) << amtperperson << endl;
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
