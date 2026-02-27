@@ -1,0 +1,49 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Assignment: Homework set lessons 1-3
+Lessons 1–3 HomeworkDue Date: Febuary 25th, 2026
+ */
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    double grade;
+    cout << "what is your grade? " << endl;
+    cin  >> grade;
+
+    if (grade > 100){
+        cout << "invalid grade entered!" << endl;
+    }
+    else if (grade >= 90){
+        cout << "your grade is an A!" << endl;
+    }
+    else if (grade >= 80){
+        cout << "your grade is a B!" << endl;
+    }
+    else if (grade >= 70){
+        cout << "your grade is a C!" << endl;
+    }
+    else if (grade >= 60){
+        cout << "your grade is a D!" << endl;
+    }
+    else if (grade <=0){
+        cout << "invalid grade entered!" << endl;
+    }
+    else {
+        cout << "your grade is an F!" << endl;
+    }
+
+
+
+
+
+
+
+
+
+    return 0;
+
+}
