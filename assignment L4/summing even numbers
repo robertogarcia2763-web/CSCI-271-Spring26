@@ -1,0 +1,46 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: Summing even numbers.
+Description: sums even numbers.
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int sum = 0;
+
+    for (int i = 2; i <= 20; i += 2){
+        sum += i; // adds even numbers: 2,4,6 8 and so on.
+
+    }
+    cout << "sum is " << sum;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+the program uses a for loop and counts even numbers given by i += 2. it adds the even numbers to the sum variable and gives the sum.
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+ Compiler errors. I had to modify my tasks.json file. I am using visual studio code.
+none!
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+ nothing.
+
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+I learned how to use a for loop to sum even numbers. */
