@@ -1,0 +1,49 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: While loop.
+Description: adds up 10 grades and calculates the average.
+*/
+
+#include <iostream> 
+
+using namespace std;
+
+int main() {
+    int total = 0;
+    int counter = 1;
+
+    while (counter <= 10) {
+        int grade;
+        cin >> grade;
+        total += grade;
+        counter++;
+    }
+double average = static_cast<double>(total) / 10;
+cout << average;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+ The program adds up all of the grades and calculates the average. I understood the counter that makes it so that 10 entries are required to add the total.
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+ Compiler errors. I had to modify my tasks.json file. I am using visual studio code.
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+ what counter++ does.
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+ I learned how the counter works.
+*/
