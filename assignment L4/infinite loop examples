@@ -1,0 +1,61 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: infinite loop examples.
+Description: is a loop of infinite iterations;
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int x = 1;
+    while (x <= 5){
+        cout << x;
+    }
+
+}
+
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int x = 1;
+    while (x <= 5){
+        cout << x << " ";
+        x++;
+    }
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+the programs are both examples of infinite loops. x is set to 1, and the loop asks if 1 is less than or equal to 5. 
+the first program does not update the value of x, so the loop will run forever. 
+the second program updates the value of x, so it will stop when x is greater than 5.
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+the only difficulty I faced was trying to write out what the code does, I understood it, but trying to put it into words was difficult.
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+ nothing.
+
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+ I learned how to get better at explaining code with words.
+ */
