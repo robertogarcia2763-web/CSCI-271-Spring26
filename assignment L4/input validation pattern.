@@ -1,0 +1,49 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: While loop.
+Description: outputs age if its between 1 and 120;
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int age;
+    cout << "Enter age (1-120): ";
+    cin >> age;
+
+    // this loop only runs if the data is bad
+    while (age < 1 || age > 120){
+        cout << "Invalid age. Please enter a valid age (1-120): ";
+        cin >> age;
+    }
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+The program uses a while loop and it checks if age is between 1 and 120.
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+none!
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+ nothing.
+
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+ nothing new.
+ 
+ */
