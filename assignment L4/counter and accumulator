@@ -1,0 +1,62 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: counter vs accumulator.
+Description: counter adds one, accumulator adds many!
+*/
+
+//counter
+/*
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int count = 0;
+
+    for ( int i = 0; i < 10; ++i)
+    count++;
+    cout << count;
+
+}
+
+*/
+
+#include <iostream> 
+
+using namespace std;
+
+int main(){
+    int sum = 0;
+
+    for ( int i = 1; i <= 5; ++i)
+    sum += 1;
+    cout << sum;
+}
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+I understood the difference from counter and accumulator.
+ A counter adds one, while an accumulator adds many.
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+using the for loop was a bit difficult at first because of the int i = 1...
+all of the different parts of the for loop confused me.
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+nothing.
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+I learned how to read code better.
+ */
