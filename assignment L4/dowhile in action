@@ -1,0 +1,46 @@
+/*
+Name: Roberto Garcia
+Course: CSCI 271
+Lesson: Lesson 4 – Iteration & Loop Patterns
+Program: dowhile in action
+Description: adds up 10 grades and calculates the average.
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int x = 10;
+
+    do {
+        cout << x;
+        x++;
+    } while (x <= 5);
+    }
+
+/*
+Reflection:
+1. What I understood from this program:
+ (Explain the concept in your own words.)
+the program uses a while loop and it counts from ten and while x is less than or equal to 5,
+it will print x and add 1 to x. 
+
+2. Difficulties I faced:
+ (Syntax, logic errors, infinite loops, casting issues, etc.)
+none!
+
+3. What I needed to search or review:
+ (Documentation, examples, lecture slides, etc.)
+ nothing.
+
+
+4. AI Usage (if any):
+ - Did you use AI tools? If yes, explain how.
+ - Did you verify the output?
+none!
+
+5. What I learned:
+ (Be specific about loops, counters, casting, etc.)
+I learned the "do" statement.  
+*/
